@@ -29,10 +29,10 @@ import (
 	"time"
 
 	"github.com/go-openapi/runtime/middleware"
+	ts "github.com/navzar05/descentralized-timestamp-authority/pkg/generated/restapi/operations/timestamp"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/verification"
 	"github.com/navzar05/timestamp-blockchain"
 	"github.com/pkg/errors"
-	ts "github.com/sigstore/timestamp-authority/pkg/generated/restapi/operations/timestamp"
-	"github.com/sigstore/timestamp-authority/pkg/verification"
 )
 
 type JSONRequest struct {

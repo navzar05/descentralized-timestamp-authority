@@ -1,11 +1,11 @@
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish
-to make via an [issue](https://github.com/sigstore/timestamp-authority/issues).
+to make via an [issue](https://github.com/navzar05/descentralized-timestamp-authority/issues).
 
 ## Pull Request Process
 
-1. Create an [issue](https://github.com/sigstore/timestamp-authority/issues)
+1. Create an [issue](https://github.com/navzar05/descentralized-timestamp-authority/issues)
    outlining the fix or feature.
 2. Fork the {project-name} repository to your own github account and clone it locally.
 3. Hack on your changes.

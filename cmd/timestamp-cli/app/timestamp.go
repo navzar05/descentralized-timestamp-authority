@@ -29,10 +29,10 @@ import (
 
 	"github.com/navzar05/timestamp-blockchain"
 	"github.com/sigstore/sigstore/pkg/cryptoutils"
-	"github.com/sigstore/timestamp-authority/cmd/timestamp-cli/app/format"
-	"github.com/sigstore/timestamp-authority/pkg/client"
-	ts "github.com/sigstore/timestamp-authority/pkg/generated/client/timestamp"
-	"github.com/sigstore/timestamp-authority/pkg/log"
+	"github.com/navzar05/descentralized-timestamp-authority/cmd/timestamp-cli/app/format"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/client"
+	ts "github.com/navzar05/descentralized-timestamp-authority/pkg/generated/client/timestamp"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/log"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

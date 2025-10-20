@@ -25,7 +25,7 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/sigstore/timestamp-authority/pkg/generated/client/timestamp"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/generated/client/timestamp"
 )
 
 // Default timestamp authority HTTP client.

@@ -22,9 +22,9 @@ import (
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/sigstore/timestamp-authority/pkg/generated/models"
-	"github.com/sigstore/timestamp-authority/pkg/generated/restapi/operations/timestamp"
-	"github.com/sigstore/timestamp-authority/pkg/log"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/generated/models"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/generated/restapi/operations/timestamp"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/log"
 )
 
 const (

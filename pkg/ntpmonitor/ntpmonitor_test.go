@@ -22,7 +22,7 @@ import (
 
 	"github.com/beevik/ntp"
 	"github.com/prometheus/client_golang/prometheus/testutil"
-	pkgapi "github.com/sigstore/timestamp-authority/pkg/api"
+	pkgapi "github.com/navzar05/descentralized-timestamp-authority/pkg/api"
 )
 
 type MockNTPClient struct {

@@ -1,6 +1,6 @@
 # Using AWS KMS to generate certificates and run `timestamp-authority`
 
-It's possible to generate certificates for a `timestamp-authority` server using keys that are in AWS Key Management Service; the process follows [the general instructions for using other KMSs](https://github.com/sigstore/timestamp-authority/tree/main?tab=readme-ov-file#other-kmss), and uses [Certificate Maker](https://github.com/sigstore/fulcio/blob/main/docs/certificate-maker.md) to generate the certificates.
+It's possible to generate certificates for a `timestamp-authority` server using keys that are in AWS Key Management Service; the process follows [the general instructions for using other KMSs](https://github.com/navzar05/descentralized-timestamp-authority/tree/main?tab=readme-ov-file#other-kmss), and uses [Certificate Maker](https://github.com/sigstore/fulcio/blob/main/docs/certificate-maker.md) to generate the certificates.
 
 ## Create the AWS KMS keys
 
@@ -18,7 +18,7 @@ cd fulcio
 make cert-maker
 ```
 
-Create a work directory somewhere, and create templates for your certificates (either a root and leaf template, or root, intermediate, and leaf templates). [Example templates are included in this project](https://github.com/sigstore/timestamp-authority/tree/main/pkg/certmaker/templates), but you will want to copy them into your work directory and modify them appropriate to your needs:
+Create a work directory somewhere, and create templates for your certificates (either a root and leaf template, or root, intermediate, and leaf templates). [Example templates are included in this project](https://github.com/navzar05/descentralized-timestamp-authority/tree/main/pkg/certmaker/templates), but you will want to copy them into your work directory and modify them appropriate to your needs:
 
 * set `commonName` to a meaningful value in each template (e.g., "Acme Corp Timestamp Root CA", "Acme Corp Timestamp Intermediate CA", and "Acme Corp Timestamp Leaf");
 * set the `country`, `organization`, and `organizationalUnit` values;

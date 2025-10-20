@@ -24,7 +24,7 @@ import (
 
 	"github.com/sigstore/sigstore/pkg/signature"
 	"github.com/sigstore/sigstore/pkg/signature/options"
-	"github.com/sigstore/timestamp-authority/pkg/x509"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/x509"
 )
 
 func TestNewTimestampingCertWithChain(t *testing.T) {

@@ -39,7 +39,7 @@ import (
 	flag "github.com/spf13/pflag"
 	"golang.org/x/net/netutil"
 
-	"github.com/sigstore/timestamp-authority/pkg/generated/restapi/operations"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/generated/restapi/operations"
 )
 
 const (

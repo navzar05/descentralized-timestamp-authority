@@ -1,4 +1,4 @@
-module github.com/sigstore/timestamp-authority/hack/tools
+module github.com/navzar05/descentralized-timestamp-authority/hack/tools
 
 go 1.23.0
 

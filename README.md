@@ -1,4 +1,4 @@
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/sigstore/timestamp-authority/badge)](https://api.securityscorecards.dev/projects/github.com/sigstore/timestamp-authority)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/navzar05/descentralized-timestamp-authority/badge)](https://api.securityscorecards.dev/projects/github.com/navzar05/descentralized-timestamp-authority)
 
 # Sigstore Timestamp Authority
 
@@ -140,7 +140,7 @@ For detailed usage instructions and examples, see the [Certificate Maker documen
 
 Generate a certificate chain, which must include a leaf certificate whose public key pairs to the private key
 in cloud KMS, may include any number of intermediate certificates, and must include a root certificate.
-We recommend reviewing the [code](https://github.com/sigstore/timestamp-authority/blob/main/cmd/fetch-tsa-certs/fetch_tsa_certs.go)
+We recommend reviewing the [code](https://github.com/navzar05/descentralized-timestamp-authority/blob/main/cmd/fetch-tsa-certs/fetch_tsa_certs.go)
 used to generate the certificate chain if you do not want to use GCP.
 
 #### Example: timestamp signing key on GCP, intermediate key on GCP, root CA on GCP
@@ -189,7 +189,7 @@ If you are not using GCP, there are many possible options but the steps for sett
 that can sign the CSR, make it sign the generated CSR and produce a certificate.  Make
 sure that the leaf certificate - the one that will be used to sign timestamping requests -
 has the Timestamping EKU (Extended Key Usage) set and it is marked as Critical.
-* if necessary, combine the CA, intermediate and leaf certificates into the certificate chain file.  Verify the certificate chain format with [VerifyCertChain](https://github.com/sigstore/timestamp-authority/blob/main/pkg/x509/x509.go#L35) to ensure it is compatible with
+* if necessary, combine the CA, intermediate and leaf certificates into the certificate chain file.  Verify the certificate chain format with [VerifyCertChain](https://github.com/navzar05/descentralized-timestamp-authority/blob/main/pkg/x509/x509.go#L35) to ensure it is compatible with
 what the `timestamp_server` expects.
 
 Set `--timestamp-signer=kms`, provide the path to the chain with `--certificate-chain-path`,

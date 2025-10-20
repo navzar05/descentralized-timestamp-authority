@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sigstore/timestamp-authority/pkg/x509/testutils"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/x509/testutils"
 )
 
 func TestVerifyCertChain(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/navzar05/timestamp-blockchain"
-	"github.com/sigstore/timestamp-authority/pkg/api"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/api"
 )
 
 func createBase64EncodedArtifactHash(artifact []byte, hash crypto.Hash) (string, error) {

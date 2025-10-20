@@ -135,12 +135,12 @@ v1.2.0 is based on Go 1.21.3.
 
 ### Bug Fixes
 
-* Fix hash function hardcoding bug by updating dependency (https://github.com/sigstore/timestamp-authority/pull/452)
+* Fix hash function hardcoding bug by updating dependency (https://github.com/navzar05/descentralized-timestamp-authority/pull/452)
 
 ### Misc
 
-* Fix typo in OpenAPI spec (https://github.com/sigstore/timestamp-authority/pull/419)
-* Update GoReleaser flag (https://github.com/sigstore/timestamp-authority/pull/356)
+* Fix typo in OpenAPI spec (https://github.com/navzar05/descentralized-timestamp-authority/pull/419)
+* Update GoReleaser flag (https://github.com/navzar05/descentralized-timestamp-authority/pull/356)
 
 ## Contributors
 
@@ -158,7 +158,7 @@ v1.2.0 is based on Go 1.21.3.
 
 ### Bug Fixes
 
-* Update how the JSON body is parsed (https://github.com/sigstore/timestamp-authority/pull/343)
+* Update how the JSON body is parsed (https://github.com/navzar05/descentralized-timestamp-authority/pull/343)
 
 ### Misc
 
@@ -174,13 +174,13 @@ v1.2.0 is based on Go 1.21.3.
 
 ### Enhancements
 
-* Support timestamp requests in JSON format (https://github.com/sigstore/timestamp-authority/pull/247)
+* Support timestamp requests in JSON format (https://github.com/navzar05/descentralized-timestamp-authority/pull/247)
 
 ### Bug Fixes
 
 ### Misc
 
-* Fix typo in README (https://github.com/sigstore/timestamp-authority/pull/294)
+* Fix typo in README (https://github.com/navzar05/descentralized-timestamp-authority/pull/294)
 
 ## Contributors
 
@@ -199,11 +199,11 @@ _Note: This is a prerelease for 1.0. Please try it out and file issues!_
 
 ## Changes
 
-* Upgrade to go 1.20.1 (https://github.com/sigstore/timestamp-authority/pull/245)
+* Upgrade to go 1.20.1 (https://github.com/navzar05/descentralized-timestamp-authority/pull/245)
 
 ### Documentation
 
-* Update policy (https://github.com/sigstore/timestamp-authority/pull/251, https://github.com/sigstore/timestamp-authority/pull/262)
+* Update policy (https://github.com/navzar05/descentralized-timestamp-authority/pull/251, https://github.com/navzar05/descentralized-timestamp-authority/pull/262)
 
 ## Contributors
 
@@ -223,7 +223,7 @@ the release.
 
 ### Misc
 
-* Mock NTP client (https://github.com/sigstore/timestamp-authority/pull/217)
+* Mock NTP client (https://github.com/navzar05/descentralized-timestamp-authority/pull/217)
 
 ## Contributors
 
@@ -240,15 +240,15 @@ now defaults to using NTP monitoring.
 
 ### Enhancements
 
-* Generate slsa provenance (https://github.com/sigstore/timestamp-authority/pull/193)
-* Use default NTP monitoring configuration (https://github.com/sigstore/timestamp-authority/pull/186)
-* Reject requests that use SHA-1 (https://github.com/sigstore/timestamp-authority/pull/202)
+* Generate slsa provenance (https://github.com/navzar05/descentralized-timestamp-authority/pull/193)
+* Use default NTP monitoring configuration (https://github.com/navzar05/descentralized-timestamp-authority/pull/186)
+* Reject requests that use SHA-1 (https://github.com/navzar05/descentralized-timestamp-authority/pull/202)
 
 ### Bug Fixes
 
 ### Misc
 
-* Update README with more details (https://github.com/sigstore/timestamp-authority/pull/188)
+* Update README with more details (https://github.com/navzar05/descentralized-timestamp-authority/pull/188)
 
 ## Contributors
 
@@ -258,24 +258,24 @@ now defaults to using NTP monitoring.
 
 # 0.2.0
 
-0.2.0 improves the verification library (https://github.com/sigstore/timestamp-authority/issues/121).
+0.2.0 improves the verification library (https://github.com/navzar05/descentralized-timestamp-authority/issues/121).
 The library now verifies the full certificate chain and additional properties of the timestamp.
 
 ## Changes
 
 ### Enhancements
 
-* Start adding more verification with VerificationOpts struct (https://github.com/sigstore/timestamp-authority/pull/153)
-* Verify command returns the parsed timestamp (https://github.com/sigstore/timestamp-authority/pull/174)
-* Add intermediate and root verify flags (https://github.com/sigstore/timestamp-authority/pull/180)
-* Verify full certificate chain (https://github.com/sigstore/timestamp-authority/pull/181)
+* Start adding more verification with VerificationOpts struct (https://github.com/navzar05/descentralized-timestamp-authority/pull/153)
+* Verify command returns the parsed timestamp (https://github.com/navzar05/descentralized-timestamp-authority/pull/174)
+* Add intermediate and root verify flags (https://github.com/navzar05/descentralized-timestamp-authority/pull/180)
+* Verify full certificate chain (https://github.com/navzar05/descentralized-timestamp-authority/pull/181)
 
 ### Bug fixes
 
 ### Misc
 
-* Add mock client (https://github.com/sigstore/timestamp-authority/pull/175)
-* Update timing accuracy statements in the policy document (https://github.com/sigstore/timestamp-authority/pull/179)
+* Add mock client (https://github.com/navzar05/descentralized-timestamp-authority/pull/175)
+* Update timing accuracy statements in the policy document (https://github.com/navzar05/descentralized-timestamp-authority/pull/179)
 
 ## Contributors
 
@@ -288,17 +288,17 @@ The library now verifies the full certificate chain and additional properties of
 
 ### Enhancements
 
-* Added an optional feature to compare the local time with a set of trusted ntp servers (https://github.com/sigstore/timestamp-authority/pull/143)
+* Added an optional feature to compare the local time with a set of trusted ntp servers (https://github.com/navzar05/descentralized-timestamp-authority/pull/143)
 
 ### Bug fixes
 
 * Register KMS providers
-  (https://github.com/sigstore/timestamp-authority/pull/160)
-* Added .PHONY target for CLI rebuilding (https://github.com/sigstore/timestamp-authority/pull/159)
+  (https://github.com/navzar05/descentralized-timestamp-authority/pull/160)
+* Added .PHONY target for CLI rebuilding (https://github.com/navzar05/descentralized-timestamp-authority/pull/159)
 
 ### Misc
 
-* inspect: remove format flag (https://github.com/sigstore/timestamp-authority/pull/155)
+* inspect: remove format flag (https://github.com/navzar05/descentralized-timestamp-authority/pull/155)
 
 ## Contributors
 
@@ -315,7 +315,7 @@ The library now verifies the full certificate chain and additional properties of
 
 ### Bug fixes
 
-* Fix a bug where certChain was not set correctly (https://github.com/sigstore/timestamp-authority/pull/140)
+* Fix a bug where certChain was not set correctly (https://github.com/navzar05/descentralized-timestamp-authority/pull/140)
 
 ### Misc
 
@@ -329,14 +329,14 @@ The library now verifies the full certificate chain and additional properties of
 
 ### Enhancements
 
-* Update in memory signer to use intermediate certificate (https://github.com/sigstore/timestamp-authority/pull/136)
-* Move verify logic to pkg (https://github.com/sigstore/timestamp-authority/pull/120)
+* Update in memory signer to use intermediate certificate (https://github.com/navzar05/descentralized-timestamp-authority/pull/136)
+* Move verify logic to pkg (https://github.com/navzar05/descentralized-timestamp-authority/pull/120)
 
 ### Bug fixes
 
-* Require the file signer to specify the certificate chain (https://github.com/sigstore/timestamp-authority/pull/137)
-* Fix hashed message verification (https://github.com/sigstore/timestamp-authority/pull/118)
-* Update fetch TSA certs script for Tink (https://github.com/sigstore/timestamp-authority/pull/111)
+* Require the file signer to specify the certificate chain (https://github.com/navzar05/descentralized-timestamp-authority/pull/137)
+* Fix hashed message verification (https://github.com/navzar05/descentralized-timestamp-authority/pull/118)
+* Update fetch TSA certs script for Tink (https://github.com/navzar05/descentralized-timestamp-authority/pull/111)
 
 ### Misc
 

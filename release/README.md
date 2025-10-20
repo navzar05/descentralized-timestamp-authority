@@ -40,7 +40,7 @@ git remote add upstream git@github.com:sigstore/timestamp-authority.git
 
 1. This will trigger a GitHub Workflow that will build the binaries and the images.
 
-1. Go to [releases](https://github.com/sigstore/timestamp-authority/releases) and edit the draft release.
+1. Go to [releases](https://github.com/navzar05/descentralized-timestamp-authority/releases) and edit the draft release.
    The tag should be selected automatically. Edit the release notes, copying in the changelog.
    Click "Publish Release".
 

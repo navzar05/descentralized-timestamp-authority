@@ -33,11 +33,11 @@ import (
 	"github.com/spf13/viper"
 	"github.com/urfave/negroni"
 
-	pkgapi "github.com/sigstore/timestamp-authority/pkg/api"
-	"github.com/sigstore/timestamp-authority/pkg/generated/restapi/operations"
-	"github.com/sigstore/timestamp-authority/pkg/generated/restapi/operations/timestamp"
-	"github.com/sigstore/timestamp-authority/pkg/internal/cmdparams"
-	"github.com/sigstore/timestamp-authority/pkg/log"
+	pkgapi "github.com/navzar05/descentralized-timestamp-authority/pkg/api"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/generated/restapi/operations"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/generated/restapi/operations/timestamp"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/internal/cmdparams"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/log"
 )
 
 //go:generate swagger generate server --target ../../generated --name TimestampServer --spec ../../../openapi.yaml --principal interface{} --exclude-main --exclude-spec

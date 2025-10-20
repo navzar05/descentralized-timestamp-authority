@@ -31,9 +31,9 @@ import (
 	"github.com/navzar05/timestamp-blockchain"
 	"github.com/sigstore/sigstore/pkg/cryptoutils"
 	"github.com/sigstore/sigstore/pkg/signature"
-	"github.com/sigstore/timestamp-authority/pkg/generated/client"
-	ts "github.com/sigstore/timestamp-authority/pkg/generated/client/timestamp"
-	"github.com/sigstore/timestamp-authority/pkg/signer"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/generated/client"
+	ts "github.com/navzar05/descentralized-timestamp-authority/pkg/generated/client/timestamp"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/signer"
 )
 
 // TSAClient creates RFC3161 timestamps and implements client.TimestampAuthority.

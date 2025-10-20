@@ -26,9 +26,9 @@ import (
 
 	"github.com/navzar05/timestamp-blockchain"
 	"github.com/sigstore/sigstore/pkg/cryptoutils"
-	"github.com/sigstore/timestamp-authority/cmd/timestamp-cli/app/format"
-	"github.com/sigstore/timestamp-authority/pkg/log"
-	"github.com/sigstore/timestamp-authority/pkg/verification"
+	"github.com/navzar05/descentralized-timestamp-authority/cmd/timestamp-cli/app/format"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/log"
+	"github.com/navzar05/descentralized-timestamp-authority/pkg/verification"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
