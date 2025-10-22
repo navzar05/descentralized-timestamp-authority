@@ -263,6 +263,8 @@ github.com/navzar05/timestamp-blockchain v1.0.6 h1:WqUf+Iifi/Aq9Ds+igxf2+M/8EZnx
 github.com/navzar05/timestamp-blockchain v1.0.6/go.mod h1:6A3itDzOPRk4DQrMTSfwcW5qnb2kWDDPgGp/wY9cpcA=
 github.com/navzar05/timestamp-blockchain v1.0.7 h1:bjUeHuLmRl/aHVURjXzIP7kPJj4fmc4+ugcTKkP6A0E=
 github.com/navzar05/timestamp-blockchain v1.0.7/go.mod h1:6A3itDzOPRk4DQrMTSfwcW5qnb2kWDDPgGp/wY9cpcA=
+github.com/navzar05/timestamp-blockchain v1.0.8 h1:qfB/W7XXUVpekUzFGkrWFCOKseIp+/K3+aUBDj6qmJA=
+github.com/navzar05/timestamp-blockchain v1.0.8/go.mod h1:6A3itDzOPRk4DQrMTSfwcW5qnb2kWDDPgGp/wY9cpcA=
 github.com/oklog/ulid v1.3.1 h1:EGfNDEx6MqHz8B3uNV6QAib1UR2Lm97sHi3ocA6ESJ4=
 github.com/oklog/ulid v1.3.1/go.mod h1:CirwcVhetQ6Lv90oh/F+FBtV6XMibvdAFo93nm5qn4U=
 github.com/opencontainers/go-digest v1.0.0 h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=
